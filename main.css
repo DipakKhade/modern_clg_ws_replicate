@@ -1,0 +1,254 @@
+
+        body{
+            background-color: #F5F5F5;
+        }
+      * {
+        margin: 0px 0px 0px 0px;
+      }
+      /* <!-- This is a upper navigation menu --> */
+
+      #uppernavbar {
+        size: 23px 100%;
+        background-color: #014341;
+        padding: 8px;
+        display: flex;
+      }
+      .firstnav {
+        color: white;
+        display: inline-block;
+        padding-left: 32%;
+      }
+      .secondnav {
+        color: white;
+        display: inline-block;
+        padding-left: 4%;
+      }
+
+      .firstnav:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .secondnav:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .tags {
+        padding-left: 1%;
+      }
+      .tags1 {
+        padding-left: 4%;
+      }
+      .Sitemap {
+        color: white;
+        padding-left: 2%;
+      }
+      .Sitemap:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      #box {
+        display: flex;
+
+        margin-left: 62%;
+        margin-right: 8%;
+        height: 40px;
+        background: #ee8323;
+        color: #000;
+        text-decoration: none;
+      }
+
+      .subbox {
+        padding: 12px;
+        margin-left: 15px;
+      }
+
+      .subbox:hover{
+        cursor: pointer;
+      }
+      #container {
+        /* border: 2px solid black; */
+        display: flex;
+        height: 150px;
+      }
+
+      .logo_name {
+        display: flex;
+        padding-top: 0%;
+        margin-left: 112px;
+      }
+      .running_navbar {
+        background-color: #c6eceb;
+        /* transition: all 5s ease-out 1s; */
+        /* animation: dipak 5s ease-in 1s 7 backwards; */
+        margin-left: 119px;
+        margin-right: 177px;
+      }
+
+      ul {
+        overflow: hidden;
+      }
+      li {
+        display: inline-block;
+      }
+
+       .navcontainer {
+        border: 2px solid black;
+        height: 29px;
+        margin-top: 18px;
+        background-color: #002F31;
+        display: flex;
+        color: white;
+
+      }
+      .navitems1{
+       margin-left: 118px;
+       border-right: 0.5px solid white;
+       padding: 7px;
+       align-items: center;
+        
+      }
+
+      .navitems{
+       
+       border-right: 0.5px solid white;
+       padding: 3px;
+       align-items: center;
+        
+      }
+      .yellow{
+        background-color: #ecd640;
+        color: #000;
+        margin-left: 30px;
+      }
+      .navitems:hover{
+        color: yellow;
+        cursor: pointer;
+      }
+      .navitems1:hover{
+        color: yellow;
+        cursor: pointer;
+      }
+
+      #bigcontainer{
+        border: 2px solid black;
+        width: 80%;
+        height: 800px;
+        margin-left: 150px;
+        margin-top: 23px;
+        display: flex;
+       
+        
+
+      }
+      .container0{
+
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 30%;
+        margin-left: 12px;
+
+
+      }
+
+      .photocontainer{
+        border: 2px solid black;
+        width: 70%;
+        height: 300px;
+        display: flex;
+        
+
+      }
+      .container1{
+        border: 2px solid black;
+        height: 45%;
+        margin: 6px 8px 6px 8px;
+        
+
+
+      }
+      .container2{
+        border: 2px solid black;
+        height: 45%;
+        margin: 6px 8px 6px 8px;
+        background-color: white;
+
+
+
+
+
+      }
+      .container1_heading{
+        width: 100%;
+    color: rgb(0, 67, 64);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+  
+    
+      }
+      .container2_heading{
+        width: 100%;
+    color: rgb(0, 67, 64);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px
+      }
+
+      .container1_div{
+        border: 2px solid black;
+        width: 60%;
+        display: flex;
+      }
+      .container2_div{
+        border: 2px solid black;
+        width: 60%;
+      }
+
+      .LI{
+        cursor: pointer;
+      }
+
+      #tab >button{
+        background-color: #c6eceb;
+      }
+
+      @media (min-width:900)and(max-width:2222){
+        #tab{
+          display: none;
+        } 
+      }
+
+      @media(max-width:900px){
+
+        .navitems1{
+          display: none;
+        }
+
+        .navitems{
+          display: none;
+
+        }
+
+
+
+        
+        
+      }
+
+      .chair_photo{
+              }
+      
+
+
+
+
+
+
+
+

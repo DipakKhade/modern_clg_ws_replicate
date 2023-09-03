@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>http://moderncollegepune.edu.in/</title>
+
+    <!-- <link rel="stylesheet" href="main.css"> -->
+     <style>
+      
+      body{
+            background-color: #F5F5F5;
+        }
+      * {
+        margin: 0px 0px 0px 0px;
+      }
+      /* <!-- This is a upper navigation menu --> */
+
+      #uppernavbar {
+        size: 23px 100%;
+        background-color: #014341;
+        padding: 8px;
+        display: flex;
+      }
+      .firstnav {
+        color: white;
+        display: inline-block;
+        padding-left: 32%;
+      }
+      .secondnav {
+        color: white;
+        display: inline-block;
+        padding-left: 4%;
+      }
+
+      .firstnav:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .secondnav:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .tags {
+        padding-left: 1%;
+      }
+      .tags1 {
+        padding-left: 4%;
+      }
+      .Sitemap {
+        color: white;
+        padding-left: 2%;
+      }
+      .Sitemap:hover {
+        color: yellow;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      #box {
+        display: flex;
+
+        margin-left: 62%;
+        margin-right: 8%;
+        height: 40px;
+        background: #ee8323;
+        color: #000;
+        text-decoration: none;
+      }
+
+      .subbox {
+        padding: 12px;
+        margin-left: 15px;
+      }
+
+      .subbox:hover{
+        cursor: pointer;
+      }
+      #container {
+        /* border: 2px solid black; */
+        display: flex;
+        height: 150px;
+      }
+
+      .logo_name {
+        display: flex;
+        padding-top: 0%;
+        margin-left: 112px;
+      }
+      .running_navbar {
+        background-color: #c6eceb;
+        /* transition: all 5s ease-out 1s; */
+        /* animation: dipak 5s ease-in 1s 7 backwards; */
+        margin-left: 119px;
+        margin-right: 177px;  
+        animation-duration: 30s;
+        animation-name: slidein;
+      }
+
+      @keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+      ul {
+        overflow: hidden;
+      }
+      li {
+        /* display: inline-block; */
+        /* display: inline; */
+        display: inline-flex;
+
+      }
+
+       .navcontainer {
+        border: 2px solid black;
+        height: 29px;
+        margin-top: 18px;
+        background-color: #002F31;
+        display: flex;
+        color: white;
+
+      }
+      .navitems1{
+       margin-left: 118px;
+       border-right: 0.5px solid white;
+       padding: 7px;
+       align-items: center;
+        
+      }
+
+      .navitems{
+       
+       border-right: 0.5px solid white;
+       padding: 3px;
+       align-items: center;
+        
+      }
+      .yellow{
+        background-color: #ecd640;
+        color: #000;
+        margin-left: 30px;
+      }
+      .navitems:hover{
+        color: yellow;
+        cursor: pointer;
+      }
+      .navitems1:hover{
+        color: yellow;
+        cursor: pointer;
+      }
+
+      #bigcontainer{
+        border: 2px solid black;
+        width: 80%;
+        height: 800px;
+        margin-left: 150px;
+        margin-top: 23px;
+        display: flex;
+       
+        
+
+      }
+      .container0{
+
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 30%;
+        margin-left: 12px;
+
+
+      }
+
+      .photocontainer{
+        border: 2px solid black;
+        width: 70%;
+        height: 300px;
+        display: flex;
+        
+
+      }
+      .container1{
+        border: 2px solid black;
+        height: 45%;
+        margin: 6px 8px 6px 8px;
+       
+
+
+      }
+      .container2{
+        border: 2px solid black;
+        height: 45%;
+        margin: 6px 8px 6px 8px;
+        background-color: white;
+        
+
+
+
+
+
+
+      }
+      .container1_heading{
+        width: 100%;
+    color: rgb(0, 67, 64);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+    
+  
+    
+      }
+      .container2_heading{
+        width: 100%;
+    color: rgb(0, 67, 64);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px
+      }
+
+      .container1_div{
+        border: 2px solid black;
+        width: 60%;
+        display: flex;
+      }
+      .container2_div{
+        border: 2px solid black;
+        width: 60%;
+      }
+
+      .LI{
+        cursor: pointer;
+      }
+
+      #tab >button{
+        background-color: #c6eceb;
+      }
+
+      @media (min-width:900)and(max-width:2222){
+        #tab{
+          display: none;
+        } 
+      }
+
+      @media(max-width:900px){
+
+        .navitems1{
+          display: none;
+        }
+
+        .navitems{
+          display: none;
+
+        }
+
+
+
+        
+        
+      }
+
+      /* .chair_photo{
+
+        border: 2px solid black;
+        width: 50%;
+        height: 23px;
+              }
+       */
+
+
+      .photocontainer img{
+
+        width: 100%;
+        
+      }
+
+
+
+
+
+
+     </style>
+
+
+    
+  </head>
+  <body>
+    <!-- This is a upper navigation menu -->
+
+    <div id="uppernavbar">
+      <div class="firstnav">Skip to Navigation</div>
+      <div class="secondnav">Skip to main content</div>
+      <div class="tags1"><img src="high-contrast.png" alt="" /></div>
+      <div class="tags"><img src="standard-view.png" alt="" /></div>
+      <div class="tags"><img src="decrease-font-size.png" alt="" /></div>
+
+      <div class="tags"><img src="standard-view.png" alt="" /></div>
+      <div class="tags"><img src="increase-text-size.png" alt="" /></div>
+      <div class="Sitemap">Sitemap</div>
+    </div>
+
+    <!-- The container which is located at the righnt side of navber -->
+    <div id="box">
+      <div class="subbox">Online Admission</div>
+      <div class="subbox">Institutional Repository@MCASC</div>
+    </div>
+    <!-- collage name container -->
+
+    <div id="container">
+      <div class="logo_name"><img src="logo_name_edited.png" alt="" /></div>
+    </div>
+
+    <!-- The animated navbar which is below the name and logo -->
+
+    <div class="running_navbar">
+      <ul>
+        <li class="LI">Award of Autonomous Status by UGC, New Delhi (2019)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">DST-FIST Scheme (2019)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">Best College Award (Sports), by SPPU (2016, 2017, 2018)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">CPE Status by UGC New Delhi (2017)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">National Award for Best Accessible Website (2018)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">‘A+’ Grade with 3.51 CGPA by NAAC (2017)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">CPE status by UGC New Delhi (2011)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">UGC-BSR (2012)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI">Star College Scheme by DBT, Govt. of India (2013)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+        <li class="LI"></li>Best College Award by SPPU (2008)</li>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+      </ul>
+    </div>
+
+    <!-- main navbar -->
+
+    <div class="navcontainer">
+
+      <!-- the tab which is seen in phone screen-->
+      <!-- <div id="tab">
+        <button>tab</button>
+      </div> -->
+
+
+        <div class="navitems1">Home</div>
+        <div class="navitems">About</div>
+        <div class="navitems">Academics</div>
+        <div class="navitems">Administration</div>
+        <div class="navitems">IQAC</div>
+        <div class="navitems">Research</div>
+        <div class="navitems">Students</div>
+        <div class="navitems">Sports</div>
+        <div class="navitems">Admissions</div>
+        <div class="navitems">Feedback</div>
+        <div class="navitems">Autonomy</div>
+        <div class="navitems">NIRF & ARIIA</div>
+        <div class="navitems">Distance Learning</div>
+        <div class="navitems">Contact us</div>
+
+        <!-- the yellow in the main navbar -->
+
+        <div class="yellow">BBA / BBA(CA) / BBA (IB)
+        </div>
+
+        
+
+    </div>
+    <!-- part which is below the main navigation bar -->
+
+    <div id="bigcontainer">
+
+        <div class="photocontainer">
+          <img src="m1.jpg" alt="error while loading the image">
+        </div>   
+        
+        <div class="container0">
+
+        <div class="container1">
+            <div class="container1_heading">From Chairperson's desk</div>
+            <div class="container1_div">
+            "Progressive Education Society’s Modern College of Arts, Science and Commerce, Shivajinagar
+            <!-- <img src="Chairman-Photo-thumb.jpg" alt=""> -->
+            
+        </div>
+        <div class="chair_photo">
+
+        </div>
+        
+            
+
+        </div>
+        
+        <div class="container2">
+            <div class="container2_heading">
+               
+            </div>
+            <div class="container2_div">
+            "in Maharashtra, founded in 1934. Based on the pedestal ‘ज्ञानमयोभव’ (Dnyanmayo Bhav)meaning
+            
+            
+        </div>
+        
+
+        
+        </div>
+
+       
+
+    
+
+
+
+    </div>
+
+    
+
+  </body>
+</html>
+
+
